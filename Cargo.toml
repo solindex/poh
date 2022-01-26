@@ -32,8 +32,5 @@ solana-perf = { git = "https://github.com/solindex/perf.git", version = "=1.8.14
 crate-type = ["lib"]
 name = "solana_poh"
 
-[[bench]]
-name = "poh"
-
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
